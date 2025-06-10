@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://tasks-render-mk.onrender.com/v1/tasks';
-  const trelloApiRoot = 'https://trello.com/b/95jT4eJe/kodilla-application';
+  const trelloApiRoot = 'https://trello.com/b/95jT4eJe';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
